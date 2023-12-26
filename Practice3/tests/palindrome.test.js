@@ -7,7 +7,7 @@ describe('palindrome', () => {
         expect(result).toBe('kcire');
     });
     
-    test('of empty sttring', () =>{
+    test('of empty string', () =>{
         const result = palindrome('');
     
         expect(result).toBe('');
