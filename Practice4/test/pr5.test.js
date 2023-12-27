@@ -1,4 +1,4 @@
-const { palindrome } = require("../pr5.js");
+const { palindrome } = require("../pr5");
 
 const number = [1, 2, 3, 4];
 

@@ -1,4 +1,4 @@
-const { repeating } = require("../pr4.js");
+const { repeating } = require("../pr4");
 
 const number = [1, 2, 3, 4];
 

@@ -1,4 +1,4 @@
-const { palindrome } = require('../pr7.js');
+const { palindrome } = require('../pr7');
 
 describe('palindrome', () => {
     test('of salas', () => {

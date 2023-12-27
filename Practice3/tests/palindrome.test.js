@@ -1,4 +1,4 @@
-const { palindrome } = require('../palindrome.js');
+const { palindrome } = require('../palindrome');
 
 describe('palindrome', () => {
     test('of erick', () => {
