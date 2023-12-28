@@ -49,7 +49,7 @@ Para facilicar su uso te recomiendo colocar lo siguiente:
   }
 ```
 
-### Reference
+## Reference
 
 La información mostrada es por parte de:
 - ***Jest***[^1].
@@ -58,6 +58,6 @@ La información mostrada es por parte de:
 [^1]:[**JEST**](https://jestjs.io/).
 [^2]:[**midudev**](https://www.youtube.com/watch?v=_DzBez4qMi0).
 
-### License
+## License
 
 This project is licensed under the [MIT License](LICENSE)
