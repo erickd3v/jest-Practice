@@ -15,7 +15,7 @@ This repository is to practice with ***Jest*** and improve my skills as a develo
 
 At the moment I am testing it with ***Vanilla JS***, however I will also try it with **PHP, React and Python**.
 
-### Installation
+## Installation
 
 > [!IMPORTANT]
 > This is the way I installed it using WSL2 (Windows Subsystem for Linux) and NodeJs, I recommend using the official documentation for a better understanding or if you want to try another version.
