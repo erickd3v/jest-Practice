@@ -11,7 +11,3 @@ const calculateDate = (date) => {
 }
 
 module.exports = calculateDate;
-
-console.log(calculateDate(new Date(1984,4,23)));
-console.log(calculateDate());
-console.log(calculateDate(2));
