@@ -1,3 +1,4 @@
+// Error messages for validations
 const errNumber = new Error(`Error el tipo de dato no es un número`);
 const errStr = new Error(`Error el tipo de dato no es un string`);
 const errArray = new Error(`Error el tipo de dato no es un array`);
