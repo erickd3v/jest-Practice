@@ -6,3 +6,10 @@ const obj = {
     a : 'sss',
     b: 'ddfdf'
 }
+
+module.exports = {
+    number,
+    str,
+    arr,
+    obj
+}
