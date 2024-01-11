@@ -1,4 +1,4 @@
-const { errStr } = require("../error");
+const { errList } = require("../validationErrors");
 
 const names = {
     name1: 'Erick Moya',
@@ -10,12 +10,11 @@ const names = {
 
 const isTrueName = (fullName) => {
     if(typeof fullName === 'undefined') return;
-    if(typeof fullName !== 'string') return errStr;
+    if(typeof fullName !== 'string') return errList;
     const arrNames = Object.values(names).includes(fullName);
+    return arrNames
 }
-// const isTrueName = (fullName) => Object.values(names).includes(fullName);
 
-console.log(isTrueName('Erick Moya'));
-console.log(isTrueName('Vianka'));
-console.log(isTrueName('JB'));
-console.log('');
+module.exports = {
+    isTrueName
+}

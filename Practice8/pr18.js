@@ -1,4 +1,4 @@
-const { errStr } = require("../error");
+const { errStr } = require("../validationErrors");
 
 const countVowelsAndConsonants = (string) => {
     if(typeof string === 'undefined') return;

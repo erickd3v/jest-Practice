@@ -1,4 +1,4 @@
-const { errStr } = require("../../error");
+const { errStr } = require("../../validationErrors");
 const countVowelsAndConsonants = require("../pr18");
 const result = `
 Vowels: 4
