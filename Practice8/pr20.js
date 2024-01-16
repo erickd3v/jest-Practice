@@ -20,5 +20,3 @@ const isEmail = (email) => {
 }
 
 module.exports = isEmail
-
-console.log(isEmail('erick@outlook.com'));
