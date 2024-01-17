@@ -1,7 +1,7 @@
 const { err } = require("../Practice6/pr13");
 
-const resultF = [];
 const discount = (number, porcent) => {
+    const resultF = [];
     if(typeof number === 'undefined') return;
     if(typeof number !== 'number') return err;
     const resto = number * (porcent / 100);
@@ -10,4 +10,4 @@ const discount = (number, porcent) => {
     return `el ${porcent}% de ${number} es ${result}`
 }
 
-module.exports = {discount,resultF}
+module.exports = discount

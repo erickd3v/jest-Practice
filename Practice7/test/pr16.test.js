@@ -1,9 +1,10 @@
 const { err } = require("../../Practice6/pr13");
-const { resultF, discount } = require("../pr16");
+const discount  = require("../pr16");
+const result = "el 20% de 98 es 78.4";
 
 describe('Apply discount',() => {
     test('to a number', () => {
-        expect(discount(98,20)).toBe(resultF.pop())
+        expect(discount(98,20)).toBe(result)
     });
     test('to a string, arr or obj', () => {
         const str = 'soy un string';
