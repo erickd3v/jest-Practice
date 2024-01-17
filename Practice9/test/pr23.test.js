@@ -1,5 +1,8 @@
+// Sample Data
 const { str, arr, obj } = require("../../sampleData");
+// Error Message
 const { errNumber } = require("../../validationErrors");
+// Function
 const parImpar2 = require("../pr23");
 
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
