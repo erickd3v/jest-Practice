@@ -1,12 +1,12 @@
 // Error messages for validations
-const errNumber = new Error(`Error el tipo de dato no es un número`);
-const errStr = new Error(`Error el tipo de dato no es un string`);
-const errArray = new Error(`Error el tipo de dato no es un array`);
-const errObj = new Error(`Error el tipo de dato no es un object`);
-const errList = new Error(`Error, el valor introducido no se encuentra en la lista`);
-const errEmail = new Error(`Error el texto ingresado no es un email`);
-const errArrayNum = new Error(`Error,el tipo de dato no es un array de numeros`);
-const error = new Error(`Error, el resultado esperado era: `);
+const errNumber = new Error(`Error the data type isn't a number`);
+const errStr = new Error(`Error the data type isn't a string`);
+const errArray = new Error(`Error the data type isn't an array`);
+const errObj = new Error(`Error the data type isn't an object`);
+const errList = new Error(`Error, the value entered wasn't found in the list`);
+const errEmail = new Error(`Error, the text entered isn't an email`);
+const errArrayNum = new Error(`Error, the data type isn't an array of numbers`);
+const error = new Error(`Error, expected result was: `);
 
 module.exports = {
     errNumber,
