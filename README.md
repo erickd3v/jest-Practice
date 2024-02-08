@@ -1,6 +1,7 @@
 # Jest Practice Repository
 
 ## Table of Contents:
+
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Installation](#installation)
@@ -33,7 +34,7 @@ In the `package.json`, you will see:
 
 ```
   "devDependencies": {
-    "jest": "^29.7.0" 
+    "jest": "^29.7.0"
     // The ^ symbol must be deleted to prevent it from updating
     // automatically, since it can affect your projects
     // for the changes that Jest can make.
@@ -48,7 +49,7 @@ To facilitate its use, I recommend you add:
     // Placing the joke `--verbose` will not provide as much information
     // as possible if there are any errors.
   },
-  
+
   "jest": {
     "testEnvironment": "node"
     // With this configuration, you are telling Jest that your execution
@@ -60,11 +61,11 @@ To facilitate its use, I recommend you add:
 
 The information shown is from:
 
-- ***Jest***[^1].
+- **_Jest_**[^1].
 - midudev[^2].
 
-[^1]:[**JEST**](https://jestjs.io/).
-[^2]:[**midudev**](https://www.youtube.com/watch?v=_DzBez4qMi0).
+[^1]: [**JEST**](https://jestjs.io/).
+[^2]: [**midudev**](https://www.youtube.com/watch?v=_DzBez4qMi0).
 
 ## License
 

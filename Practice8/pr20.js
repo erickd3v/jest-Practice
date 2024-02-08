@@ -13,10 +13,13 @@ const { errStr } = require("../validationErrors");
 /**Forma Optimizada para verificar todo tipo de email */
 
 const isEmail = (email) => {
-    if(typeof email === 'undefined') return;
-    if(typeof email !== 'string') return errStr;
-    let expReg = /[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})/i.test(email)
-    return expReg;
-}
+  if (typeof email === "undefined") return;
+  if (typeof email !== "string") return errStr;
+  let expReg =
+    /[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})/i.test(
+      email
+    );
+  return expReg;
+};
 
-module.exports = isEmail
+module.exports = isEmail;
